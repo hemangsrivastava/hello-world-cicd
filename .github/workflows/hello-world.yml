@@ -1,7 +1,11 @@
+
 name: Hello World CI Pipeline
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
